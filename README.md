@@ -1,3 +1,3 @@
 # Mini-Projects
 
-1. Digital Clock Live - https://codepen.io/akshattriv/pen/ZExdeyo
+Website Live At - https://akshattriv.github.io/Mini-Projects/
