@@ -73,3 +73,23 @@ body{
     transform: scale(0.88);
 }
 
+/* laptop or desktop */
+@media screen and (min-width: 1224px){
+    .container{
+        max-width: 20vw;
+    }
+}
+
+/* smartphones potrait */
+@media screen and (max-width: 320px){
+    .container{
+        max-width: 80vw;
+    }
+}
+
+/* @media screen and (min-width: 1824px){
+} */
+/* smartphone landscape */
+/* @media screen and (min-width: 321px){
+
+} */
