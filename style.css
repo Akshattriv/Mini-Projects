@@ -1,3 +1,6 @@
+body{
+  background-color: blanchedalmond;
+}
 .challenge-grid {
     grid-gap: 1.5rem;
     grid-template-columns: repeat(2, 1fr);
@@ -7,6 +10,13 @@
   h1 {
     align-items: center;
     justify-content: center;
+    border: 6px solid;
+    border-style: groove;
+    border-color: rgb(217, 116, 116);
+    text-shadow: 59px;
+    background-color: white;
+    letter-spacing: 2px;
+    border-radius: 14px;
   }
   
   h1 a img {
@@ -21,18 +31,21 @@
     justify-content: center;
     height: 100px;
     padding: 10px;
-    color: chocolate;
+    color: rgb(114, 52, 8);
     font-size: 1.25rem;
     text-decoration: none;
+    font-weight: bold;
   }
   
   main div {
     position: relative;
     overflow: hidden;
-    background-color: white;
+    background-color:rgb(244, 188, 104);
     border: 1px solid rgba(0, 0, 0, 0.05);
     box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.15);
     transition: all 0.2s ease-in-out;
+    border-radius: 55px;
+    border: 2px solid;
   }
   
   main div:hover {
