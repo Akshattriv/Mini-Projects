@@ -81,7 +81,7 @@ body{
 }
 
 /* smartphones potrait */
-@media screen and (min-width: 50px) and (max-width:480px){
+@media screen and (min-width: 50px) and (max-width:499px){
     .container{
         max-width: 80vw;
         width: 80%;

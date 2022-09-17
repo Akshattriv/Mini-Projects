@@ -65,3 +65,27 @@ h3{
     font-size: 20px;
     background:green;
 }
+@media screen and (min-width: 1000px) and (max-width: 1824px){
+    .container{
+        width: 70vw;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 999px){
+    .res{
+        font-size: 25px;
+    }
+}
+/* smartphones potrait */
+@media screen and (min-width: 50px) and (max-width:499px){
+    .container{
+        width: 70vw;
+    }
+    .res{
+        width: 80%;
+        font-size: 18px;
+    }
+    .imgdiv{
+        height: 60vh;
+    }
+}

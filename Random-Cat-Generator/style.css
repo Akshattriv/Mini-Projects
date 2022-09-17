@@ -1,7 +1,14 @@
 body{
     background-color:bisque;
-    position: relative;
     margin: 0;
+}
+.container{
+    font-family:cursive;
+    font-weight: bold;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
 }
 .res{
     border-radius: 40px;
@@ -10,9 +17,10 @@ body{
     padding: 20px;
     background-color:burlywood;
 
-    width: 200px;
+    width: 40vw;
     text-align: center;
     margin: 0 auto;
+    margin-bottom: 10px;
 }
 #cat_Btn{
     border-radius: 30px;
@@ -30,10 +38,10 @@ body{
 }
 .imgdiv{
     border: 2px solid black;
-    width: 900px;
-    height: 500px;
-    
-    background-color: aquamarine;
+    width: 60vw;
+    height: 70vh;
+
+    background-image: linear-gradient(to bottom right, rgb(221, 115, 115), rgb(84, 84, 207));
     margin: 0 auto;
     outline-style: dotted;
     outline-color: blue;
@@ -45,4 +53,28 @@ body{
     height: 100%;
     object-fit: contain;
 
+}
+@media screen and (min-width: 1000px) and (max-width: 1824px){
+    .container{
+        width: 70vw;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 999px){
+    .res{
+        font-size: 25px;
+    }
+}
+/* smartphones potrait */
+@media screen and (min-width: 50px) and (max-width:499px){
+    .container{
+        width: 70vw;
+    }
+    .res{
+        width: 80%;
+        font-size: 18px;
+    }
+    .imgdiv{
+        height: 60vh;
+    }
 }
