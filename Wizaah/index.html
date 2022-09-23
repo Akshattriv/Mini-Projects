@@ -49,10 +49,10 @@
         <img class="logo" src="images/black_logo.png" alt="Wizaah Logo">
         <div class="midnav">
           <ul>
-            <li><a href="#">Men</a></li>
-            <li><a href="#">Women</a></li>
-            <li><a href="#">Kids</a></li>
-            <li><a href="#">Home & Living</a></li>
+            <li><a href="#"><span>Men</span></a></li>
+            <li><a href="#"><span>Women</span></a></li>
+            <li><a href="#"><span>Kids</span></a></li>
+            <li><a href="#"><span>Home & Living</span></a></li>
           </ul>
         </div>
         <div class="settings">
@@ -81,9 +81,144 @@
 
           <span style="opacity: 0.6; font-size:13px; ">CLOTHING COMPANY</span>
           <br/>
-          <h1>Ruffled Sleeveless Top</h1>
+          <h1 style="margin-top:0;margin-bottom: 0;">Ruffled Sleeveless Top</h1>
           <br/>
-          <span style="text-decoration: line-through"></span>
+          <span style="text-decoration: line-through">Rs. 1500 &nbsp;</span>
+          <span>&nbsp;&nbsp;Rs. 899.00</span> <button style="border-radius:100px; background-color:#002e35;text-decoration: none;color:white;">Sale</button>
+          <br>
+          <br>
+
+          <p style="opacity: 0.7; margin-bottom:10px;">Size</p>
+          <div class="top-size">
+            <button>S</button>
+            <button>M</button>
+            <button>L</button>
+            <button>XL</button>
+          </div>
+
+          <br>
+          <p style="opacity: 0.7;margin-bottom:10px;margin-top:0;">Quantity</p>
+          <div id="quantity-btn">
+            <button onclick="decrement()">-</button>
+              <input id=demoInput type=number min=1 max=10>
+            <button onclick="increment()">+</button>
+          </div>
+
+          <br>
+          <div class="flexbox2 finalAdd">
+            <div class="flexbox2-item">
+
+              <button id="addtocart" onclick="addtocart()">
+                Add to cart
+              </button>
+  
+              <button id="buy">
+                Buy it now
+              </button>
+
+            </div>
+          </div>
+          <br>
+
+          <p class="text">
+            A dreamy feminine piece, this top is made from a medium weight, extra soft 
+            cotton blend with a light airy feel and paper-like quality. 
+            <br> <br>
+            Designed with voluminous ruffled straps as well as ruffle details across the 
+            chest, it has a straight cut fit and a square neckline.
+          </p>
+
+                
+            
+            
+          <!-- <div class="dropdown">
+            
+            <div class="drop-material">
+              <img src="images/icon-materials.svg" style="height:28px;" id="drop1">
+              <span>Materials</span> 
+              <img src="images/down-arrow.png" id="drop2">
+            </div>
+
+            
+
+           <div class="drop-material">
+              
+              <img src="images/down-arrow.png" id="drop2">
+            </div>
+      
+
+            <div class="drop-material">
+              <img src="images/icon-care.svg" style="height:32px;">
+              <span>Care Instructions</span>
+              <img src="images/down-arrow.png" id="drop2">
+            </div>
+       
+          </div>
+          <br>
+
+          <div class="dropdown">
+              <div class="drop-material">
+                <img src="images/icon-shipping.svg" style="height:32px;">
+                <p style="margin-top:0;" id="dropdown-text">Shipping & Returns</p> 
+                <img src="images/down-arrow.png" id="drop2">
+              </div>
+              
+          </div>
+          <br>
+
+          <div class="dropdown">
+            <div class="drop-material">
+              <img src="images/icon-dimensions.svg" style="height:32px;">
+              <p>Dimensions</p> 
+              <img src="images/down-arrow.png" id="drop2">
+            </div>
+            
+        </div> -->
+<!-- ----------------dropdown------------------------- -->
+
+<br>
+<div class="accordion-body">
+  <div class="accordion">
+
+    <hr>
+
+    <div class="container">
+      <div class="label">
+        <img src="images/icon-materials.svg" style="height:28px;" id="drop1">
+        <p>Materials</p> 
+      </div>
+    </div>
+    <hr>
+
+    <div class="container">
+      <div class="label">
+
+        <img src="images/icon-shipping.svg" style="height:32px;">
+        <p style="margin-top:0;" id="dropdown-text">Shipping & Returns</p> 
+        
+      </div>
+    </div>
+    <hr>
+
+    <div class="container">
+      <div class="label">
+        <img src="images/icon-dimensions.svg" style="height:32px;">
+        <p>Dimensions</p> 
+      </div>
+    </div>
+    <hr>
+
+    <div class="container">
+      <div class="label">
+        <img src="images/icon-care.svg" style="height:32px;">
+        <p>Care Instructions</p>
+      </div>
+    </div>
+    <hr>    
+
+  </div>
+</div>
+
 
         </div>
       </div>
